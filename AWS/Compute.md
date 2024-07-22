@@ -64,8 +64,3 @@ O ASG aumenta ou diminui o numero de instancias disponiveis baseado na demanda d
 - Possui configuracao de numero maximo e minimo de instancias disponiveis
 
 
-## SQS(Simple Queue Service)
-Envia, Armazena e recebe mensagens entre componentes de software. Uma mensagem enviada ao SQS fica armazenada ate ser processada
-
-## SNS(Simple Notification Service)
-Assim como SQS ele envia mensagens entre componentes, mas tambem consegue enviar notificacoes para os usuarios finais da aplicacao
