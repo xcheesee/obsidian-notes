@@ -11,6 +11,12 @@ Route 53 disponibiliza politicas de distribuicao de trafego, que sao:
 - Latency: roteamento de trafego baseado na localizacao no usuario, que redirecionara o usuario para a instancia mais proxima dele
 - Failover: roteamento em caso de failover que redireciona o usuario para a instancia saudavel previamente configurada na queda da instancia principal
 
+eh capaz de redirecionar o trafego do usuario com base em metricas como:
+* Latencia
+* GeoLocation
+* Geopriximity
+* Round Robin
+
 ## CloudFront
 
 Servico de CDN da AWS, que utiliza o conteudo de cache da pagina e leva-o para as localizacoes edge da Amazon. CloudFront oferece protecao DDoS, integracao com Shield e AWS Web Application Firewall
