@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Machine Learning.md",
+                "file": "AWS/Account Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Machine Learning.md",
+                "file": "AWS/Account Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Machine Learning.md",
+                "file": "AWS/Account Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Machine Learning.md"
+                "file": "AWS/Account Management.md"
               }
             }
           },
@@ -158,15 +158,16 @@
   },
   "active": "3d9b38b80060ad70",
   "lastOpenFiles": [
-    "AWS/Security.md",
-    "AWS/Machine Learning.md",
     "AWS/Storage.md",
-    "AWS/Monitoring.md",
+    "AWS/Account Management.md",
+    "AWS/Security.md",
+    "AWS/Networking.md",
     "AWS/Infrastructure.md",
     "AWS/Integration.md",
+    "AWS/Machine Learning.md",
+    "AWS/Monitoring.md",
     "AWS/Deploy.md",
     "AWS/Serverless.md",
-    "AWS/Networking.md",
     "AWS/Compute.md",
     "AWS/Business Inteligence.md",
     "Untitled.md",
@@ -191,7 +192,6 @@
     "Business Agility/SCRUM.md",
     "Redes/Fases de um  projeto de rede.md",
     "Business Agility",
-    "Redes/Serviços de rede.md",
     "Redes/Untitled",
     "Redes"
   ]

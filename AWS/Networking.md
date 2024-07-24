@@ -55,3 +55,4 @@ Servico utilizado para criar conexoes peering transitivas entre milhares de VPCs
 - **80**: HTTP - Unsecured website
 - **443**: HTTPS - Secured website
 - **3389**: RDP - Windows Shell
+
