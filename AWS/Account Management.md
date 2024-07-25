@@ -48,4 +48,56 @@ Servico que disponibiliza todos os detalhes de custos e usos, assim como metadad
 
 ## Cost Explorer
 
-Visualizacao de custos de recursos aws em formato timelapse
+Visualizacao de custos de recursos aws em formato timelapse, permite previsao de utilizacao e custo de recurso de ate 12 meses 
+
+## Billing Alarm
+
+Dados de cobranca eh localizado em CloudWatch em us-east-1, que possui dados de cobranca de todos servicos, mundialmente. Em CloudWatch pode ser configurado um alarme quando um limite estipulado for ultrapassado.
+
+## AWS Budgets
+
+Servico de criacao de alarmes quando um servico, ou sua previsao de custo, passa de um limite pre-configurado.
+Existem 4 tipos de budgets: Uso, Custo, Reserva e Savings Plans, com o limite de ate 5 notificacoes SNS por budget.
+
+## Cost Anomaly Detection
+
+Utilizando ML, identifica e notifica gastos anomalos, baseados no historico de gastos de sua conta
+
+## Service Quota
+
+Servico que te notifica quando voce se aproxima do limite de cota de um servico contratado, e permite a solicitacao de mais cota, ou a finalizacao do recurso em questao
+
+## Trusted Advisor
+
+Serviço que audita sua conta e notifica você baseado em 6 criterios:
+- Otimização de custos
+- Performance
+- Segurança - Free
+- Tolerância a Falhas
+- Limites de Serviços - Free
+- Excelência Operacional
+
+Todas Checagens de Trusted Advisor sao incluidas apenas nos planos Business e Enterprise, que tambem inclui acesso programatico ao Trusted Advisor
+
+## Planos
+
+- Basic: Free
+	- Customer Service & Communities - 24/7 access to customer service, documentation, whitepapers and support forums
+	- AWS Trusted Advisor: Core checks em Seguranca e Limite de Servicos
+	- AWS Personal Health Dashboard
+- Developer: 
+	- Business hours email access to Cloud Support - 1 contato, com respostas entre  <24 horas ou <12 horas, dependendo da severidade
+- Business:
+	- AWS Trusted Advisor: Todos Checks + Acesso a API
+	- Suporte 24/7 por telefone, email e chat com Cloud Support, com contatos ilimitados, com resposta de <4 horas e <1 hora, em casos extremos
+	- Acesso ao Infrastructure Event Management, com custos adicionais\
+- Enterprise On-Ramp:
+	- Acesso a uma gama de Technical Account Managers(TAM)
+	- Concierge Support Team(para custos e melhores praticas de sua conta)
+	- Infrastructure Event Management, Well-Architected & Operations Reviews
+	- Tempo de resposta do suporte de ate <30 mins, em casos extremos
+- Enterprise:
+	- Technical Account Manager(TAM) designado
+	- Tempo de resposta do suporte de ate <15mins, em casos extremos
+
+Todo plano mais premium recebe os beneficios dos planos anteriores

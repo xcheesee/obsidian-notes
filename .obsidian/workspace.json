@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Account Management.md",
+                "file": "AWS/Identity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Account Management.md",
+                "file": "AWS/Identity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Account Management.md",
+                "file": "AWS/Identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Account Management.md"
+                "file": "AWS/Identity.md"
               }
             }
           },
@@ -158,14 +158,16 @@
   },
   "active": "3d9b38b80060ad70",
   "lastOpenFiles": [
+    "AWS/Misc. Services.md",
+    "AWS/Identity.md",
     "AWS/Storage.md",
     "AWS/Account Management.md",
+    "AWS/Machine Learning.md",
+    "AWS/Monitoring.md",
     "AWS/Security.md",
     "AWS/Networking.md",
     "AWS/Infrastructure.md",
     "AWS/Integration.md",
-    "AWS/Machine Learning.md",
-    "AWS/Monitoring.md",
     "AWS/Deploy.md",
     "AWS/Serverless.md",
     "AWS/Compute.md",
@@ -189,8 +191,6 @@
     "Untitled 1.canvas",
     "Business Agility/Indicadores e Metricas.md",
     "Business Agility/Issue Type.md",
-    "Business Agility/SCRUM.md",
-    "Redes/Fases de um  projeto de rede.md",
     "Business Agility",
     "Redes/Untitled",
     "Redes"
