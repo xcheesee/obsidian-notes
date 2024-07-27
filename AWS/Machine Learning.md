@@ -17,7 +17,7 @@ Serviço de traducao de texto
 
 ## Lex
 
-Serviço Alexa
+Serviço Alexa, que provisiona Speech recognition para converter fala para texto, e NLU(Natural Language Understanding) para identificar intencoes de usuarios, auxiliando assim na criacao de chatbots e call center bots
 
 ## Connect
 

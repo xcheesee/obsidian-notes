@@ -63,4 +63,8 @@ Servico que roteia requests de rede feita aas instancias EC2 de forma que todas 
 O ASG aumenta ou diminui o numero de instancias disponiveis baseado na demanda dos usuarios
 - Possui configuracao de numero maximo e minimo de instancias disponiveis
 
+## MarketPlace
+
+Catalogo digital que disponibiliza milhares de softwares por vendors independentes(3rd party)
+
 
