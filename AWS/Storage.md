@@ -1,7 +1,7 @@
 
 ## Elastic Block Store(EBS)
 
-O armazenamento padrao de uma instancia EC2 esta atrelado fisicamente com essa instancia, assim quando eventualmente essa instancia eh finalizada, todas informacoes armazenadas nela tambem sao perdidas, para combater esse problema, utiliza-se da ferramenta EBS.
+O armazenamento padrao de uma instancia EC2 esta atrelado fisicamente com essa instancia, assim quando eventualmente essa instancia eh finalizada, todas informacoes armazenadas nela tambem sao perdidas, para combater esse problema,utiliza-se da ferramenta EBS.
 
 Servico de armazenamento de dados que permite a gravacao e permanencia de dados para instancias de EC2. Com a possibilidade de configuracao de tamanho e tipo, e realizacao de backups incrementais por meio de "snapshots"
 
@@ -38,6 +38,10 @@ Servico de copias assincronas de buckets s3, tanto na mesma regiao(srr) ou em re
 Casos de Uso:
 - **CRR**: Compliance, acesso de baixa latencia, replicar dados entre contas
 - **SRR**: Agregacao de logs, sincronizacao entre ambientes de producao e teste
+
+### Access Logs
+
+Servico S3 que mantem registro de requests, como tipo de request, qual recurso foi solicitado, data e hora, e etc.
 
 ## Elastic File System(EFS)
 

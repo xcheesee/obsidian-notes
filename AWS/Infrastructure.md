@@ -19,7 +19,9 @@ eh capaz de redirecionar o trafego do usuario com base em metricas como:
 
 ## CloudFront
 
-Servico de CDN da AWS, que utiliza o conteudo de cache da pagina e leva-o para as localizacoes edge da Amazon. CloudFront oferece protecao DDoS, integracao com Shield e AWS Web Application Firewall
+Servico de CDN da AWS, que utiliza o conteudo de cache da pagina e leva-o para as localizacoes edge da Amazon. CloudFront oferece protecao DDoS, integracao com Shield e AWS Web Application Firewall.
+
+Conforme aumenta o volume de requests para uma aplicacao, o CloudFront copia o conteudo para uma [[AWS Infrastructure (Anki)#Edge Locations|Edge Location]]
 
 ## S3 Transfer Acceleration
 

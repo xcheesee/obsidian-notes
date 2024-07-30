@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6e290fae2881d683",
+        "id": "989822a60470aad5",
         "type": "tabs",
         "children": [
           {
-            "id": "9aadcb59e0cc2d77",
+            "id": "58476d9932940354",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Conceitos.md",
+                "file": "AWS/Storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a627b00baffce34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Deploy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Conceitos.md",
+                "file": "AWS/Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Conceitos.md",
+                "file": "AWS/Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +137,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Conceitos.md"
+                "file": "AWS/Storage.md"
               }
             }
+          },
+          {
+            "id": "301c513e3185f2ef",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,29 +164,36 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9aadcb59e0cc2d77",
+  "active": "58476d9932940354",
   "lastOpenFiles": [
-    "AWS/Misc. Services.md",
-    "AWS/Security.md",
-    "AWS/Compute.md",
+    "AWS/Compute (Anki).md",
     "AWS/Account Management.md",
-    "AWS/Deploy.md",
-    "AWS/Identity.md",
-    "AWS/Infrastructure.md",
-    "AWS/Conceitos.md",
-    "AWS/Storage.md",
-    "AWS/Serverless.md",
+    "AWS/AWS Infrastructure (Anki).md",
+    "AWS/Conceitos (Anki).md",
     "AWS/Monitoring.md",
+    "AWS/Infrastructure.md",
+    "AWS/Deploy.md",
+    "AWS/Security.md",
     "AWS/Networking.md",
+    "AWS/Storage.md",
+    "AWS/Misc. Services.md",
+    "AWS/Identity.md",
+    "Redes/Configurações sobre protocolos TCP-IP.md",
+    "sharedResp.jpg",
+    "home/luc/Downloads/sharedResp.jpg.md",
+    "home/luc/Downloads",
+    "home/luc",
+    "home",
+    "AWS/Serverless.md",
     "AWS/Machine Learning.md",
     "Welcome.md",
     "Redes/Serviços de rede.md",
     "Redes/Metodologias e Certificacoes.md",
     "Redes/Fases de um  projeto de rede.md",
-    "Redes/Configurações sobre protocolos TCP-IP.md",
     "Redes",
     "Emasp Observa Sampa/Dados, Indicadores e Informações.md",
     "Emasp Observa Sampa",
@@ -176,8 +204,6 @@
     "Business Agility/Indicadores e Metricas.md",
     "Business Agility/Concepcao de Produto.md",
     "Business Agility",
-    "AWS/Integration.md",
-    "AWS/Business Inteligence.md",
     "AWS"
   ]
 }

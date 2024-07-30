@@ -1,5 +1,5 @@
 
-## 7 "R"s da Estrategia de Migracao
+## 7 "R"s da Estrategia de Migracao (Anki)
 
 
 - Retire: Desligue servicos nao utilizados
@@ -12,7 +12,7 @@
 - Repurchasing: Mudar para um produto cloud durante a migracao, para, por exemplo, uma aplicacao SaaS
 - Refactor: Rearquitetar a aplicacao para aproveitar os beneficios do cloud
 
-## Well Architected Framework Guiding Principles
+## Well Architected Framework Guiding Principles (Anki)
 
 - Nao advinhe sua capacidade necessaria, utilize auto-scaling
 - Teste seus sistemas em escala de producao
@@ -20,7 +20,7 @@
 - Desenhe arquitetura que permita mudancas de requerimentos
 - Desenhe arquitetura baseado em dados
 
-## Principios de Design AWS Cloud
+## Principios de Design AWS Cloud (Anki)
 
 - Escalabilidade
 - Recursos descartaveis(Servers devem ter configuração simples e serem descartáveis)
@@ -28,7 +28,7 @@
 - Loose Coupling
 - Servicos no lugar de Servers
 
-## 6 Pilares do Well Architected Framework
+## 6 Pilares do Well Architected Framework (Anki)
 
 - Operational Excellence
 	Executar e monitorar sistemas para entregar valor de mercado e realizar melhora continua dos processos e procedimentos

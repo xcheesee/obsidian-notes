@@ -97,7 +97,7 @@ Servico de gerenciamento de comunicacao de marketing(SMS, E-Mail, Push, voice, i
 
 ## Well-Architected Tool
 
-Servico que revisa sua arquitetura cloud em relacao aos [[Conceitos#6 Pilares do Well Architected Framework | 6 pilares]] do Well-Architected Framework e implementa best practices arquiteturais.
+Servico que revisa sua arquitetura cloud em relacao aos [[Conceitos (Anki)#6 Pilares do Well Architected Framework| 6 pilares]] do Well-Architected Framework e implementa best practices arquiteturais.
 Como o servico funciona?:
 - Selecione o workload
 - responda questoes sobre os 6 pilares

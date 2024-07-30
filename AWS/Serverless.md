@@ -4,7 +4,7 @@ Servico que permite que voce envie seu codigo fonte para uma "Lambda Function", 
 
 ## ECS(Elastic Container Service)
 
-Servico de Containers da AWS que provisiona e gerencia containers em sua maquina(EC2), com integracao ao [[Compute#Elastic Load Balancing|Load Balancer]], porem toda configuracao dos contaners na instancia EC2 deve ser feita pelo usuario
+Servico de Containers da AWS que provisiona e gerencia containers em sua maquina(EC2), com integracao ao [[Compute (Anki)#Elastic Load Balancing|Load Balancer]], porem toda configuracao dos contaners na instancia EC2 deve ser feita pelo usuario
 
 ## ECR(Elastic Container Registry)
 

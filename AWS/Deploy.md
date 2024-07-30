@@ -57,15 +57,19 @@ cloud IDE da AWS, utilizado para escrever, executar e debugar codigo diretamente
 
 ## Systems Manager(SSM)
 
-Servico que auxilia na gestao em escala de Instancias EC2 e sistemas on-premises
+Servico que auxilia na gestao em escala de aplicativos. 
 
 features:
 - automacao de patching
 - rodar comandos em todos servidores simultaneamente
 - armazenamento de parametros de configuracao
+- Coleta de dados de aplicacoes, como apps, files, network config, system properties...
+- Agregacao de dados operacionais
 
 SSM eh compativel com Linux, Windows, MacOs e Raspberry Pi OS.
 Eh necessario instalar o SSM agent nas maquinas a serem controladas.
+
+Systems manager tambem permite a centralizacao de informacoes referentes a dados operacionais de multiplos servicos AWS, onde eh possivel criar grupos logicos de recursos, ou ambientes de desenvolvimento vs producao. Com esse recurso eh possivel analisar atividade recente de API, mudancas nas configuracoes de recursos, status de notificacoes, alertas e compliance de patches.
 
 ### Session Manager
 

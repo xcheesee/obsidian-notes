@@ -25,7 +25,7 @@ Validacao de permissoes a nivel de instancia, que configura o que pode ser envia
 
 Captura informacoes sobre trafego ip navegando suas interfaces, fazendo com que se comportem como se fossem uma so rede
 
-### Peering
+### VPC Peering
 
 Conecta duas VPCs utilizando a rede AWS, de forma privada
 

@@ -2,6 +2,10 @@
 
 Servico que disponibiliza metricas para todos servicos AWS, que permite a criacao de dashboards para consolidar diversas metricas em um grupo
 
+### CloudWatch Events
+
+Utilizado para filtrar e rotear eventos para recursos alvos especificados para seu processamento.
+
 ### CloudWatch Alarms
 
 Utilizado para disparar alarmes e executar acoes quando uma metrica ultrapassa um limite especificado pelo usuario
@@ -18,7 +22,7 @@ Servico utilizado para realizar acoes de forma programada, seja em algum horario
 
 ## CloudTrail
 
-Servico de governanca, compliance e auditoria de sua conta AWS, que mantem um historico de eventos feitos em sua conta AWS
+Servico de governanca, compliance e auditoria de sua conta AWS, que mantem um historico de eventos feitos em sua conta AWS, em especifico, Calls de APIs
 
 ## X-Ray
 

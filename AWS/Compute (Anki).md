@@ -1,4 +1,4 @@
-## EC2
+## EC2 (Anki)
 
 Servico de maquinas virtuais escalaveis e elasticas, com configuracao de hardware e alta disponibilidade
 
@@ -11,7 +11,15 @@ Servico de maquinas virtuais escalaveis e elasticas, com configuracao de hardwar
 * Possivel reconfigurar hardware da instancia on demand
 * Possivel configurar network da instancia
 
-### Tipos de Instancias
+### AMI (Anki)
+
+Instancias EC2 podem ser criadas a partir de uma "Imagem"(AMI), que eh um template que especifica as configuracoes de uma instancia, assim permitindo criar múltiplas instancias sem a necessidade de configurar cada uma individualmente.
+
+Imagens AMI criadas a partir de uma regiao em especifico so podem ser atribuidas a instancias EC2 da mesma regiao, necessitando a copia e transferencia dessa imagem para outras regioes caso seja necessario a inicializacao de instancias em regioes diferentes.
+
+**A regiao de uma imagem nao influencia na performance da instancia resultante**
+
+### Tipos de Instancias (Anki)
 
 **Cada Instancia pertence a um grupo de instancia, chamado familia**
 
@@ -22,7 +30,7 @@ Familias de instancias:
 * Accelerated computing - similar ao compute optimized, porem utiliza de hardware acceleration para executar tarefas compativeis de modos mais eficiente, como processamento de graficos
 * Storage optimized - recursos com foco de memoria nao volatil, utilizados para workloads que necessitam guardar e acessar dados armazenados localmente.
 
-### Biling
+### Biling (Anki)
 
 
 * **On Demand**: Cobra o usuario pelo tempo em que usou a instancia.
@@ -33,7 +41,7 @@ Familias de instancias:
 * **Spot Instances**: Oferece um valor de ate 90% de desconto, em troca da compra de utilizacao de maquinas que se encontram ociosas. E a aws pode reinvidicar tais instancias a qualquer momento
 * **Dedicated Host**: Normalmente utilizado por motivo de compliance, esta instancia reserva um host de forma integral, desta forma eliminando multitenancy no host
 
-## Elastic Load Balancing
+## Elastic Load Balancing(ELB) (Anki)
 
 Servico que roteia requests de rede feita aas instancias EC2 de forma que todas elas recebam o mesmo workload
 
@@ -43,7 +51,7 @@ Servico que roteia requests de rede feita aas instancias EC2 de forma que todas 
 - Elasticidade: No momento em que um sistema eh escalavel, elasticidade se da pela habilidade de adaptar os nodes baseados na demanda atual
 - Agilidade: Relacionado aa disponibilidade de recursos de TI, no sentido em que recursos estao disponiveis "on-demand".
 
-### Tipos de Load Balancer
+### Tipos de Load Balancer (Anki)
 
 - Application(Http/Https/gRPC) - Layer 7
 	 - Http Routing
@@ -58,12 +66,16 @@ Servico que roteia requests de rede feita aas instancias EC2 de forma que todas 
 	- Deep Packet Inspection
 - Classic(Legado desde 2023) - Layer 4 & 7
 
-## ASG(Auto Scaling Group)
+### Access Logs (Anki)
+
+Mantem registro de requests feitas para ELB, como IP do solicitante, latencia e resposta do server
+
+## ASG(Auto Scaling Group) (Anki)
 
 O ASG aumenta ou diminui o numero de instancias disponiveis baseado na demanda dos usuarios
 - Possui configuracao de numero maximo e minimo de instancias disponiveis
 
-## MarketPlace
+## MarketPlace (Anki)
 
 Catalogo digital que disponibiliza milhares de softwares por vendors independentes(3rd party)
 
